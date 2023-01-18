@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>Album example · Bootstrap</title>
+    <title>Barry Bookstore</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -27,24 +27,29 @@
       
       </section>
       <div class="container">
-        <div class="dropdown" mdbDropdown [autoClose]="false">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-              Cart
-            </button>
-            <div class="dropdown-menu" >
-                <ul>
-                    <form id="dropdown-menu">
+        <div class="row button-header">
+            <div class="col-3 ">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" id="dropdown-count" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Cart (0)
+                    </button>
+                    <div class="dropdown-menu" >
+                        <ul>
+                            <form id="dropdown-menu">
+                                
+                            </form>
+                        </ul>
                         
-                    </form>
-                </ul>
+                    </div>
+                </div>
                 
             </div>
+            <button type="button" class="btn btn-warning col-2" onclick="emptyCart()">Empty Cart</button>
         </div>
         <div class="row" id="book-location">
 
-            </div>
         </div>
-      </div>
+    </div>
     </main>
 
     <footer class="text-muted">

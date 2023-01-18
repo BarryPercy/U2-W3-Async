@@ -1,75 +1,86 @@
 body{
     background-color: bisque;
-  }
-  .carousel-item{
+}
+.carousel-item{
     height:20vw;
     object-fit: contain;
-  }
-  .carousel{
+}
+.carousel{
     width:50%;
     margin:auto;
-  }
-  .card img{
+}
+.card img{
     object-fit: contain;
-  }
+}
 
-  .card{
+.card{
     margin-top: 10vw;
-  }
-  .hidden{
-      display:none;
-  }
-  .jumbotron {
+}
+.hidden{
+    display:none;
+}
+.jumbotron {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
     background-color: #fff;
-  }
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
     .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
-  }
+}
 
-  .jumbotron p:last-child {
-    margin-bottom: 0;
-  }
 
-  .jumbotron-heading {
+.jumbotron-heading {
     font-weight: 300;
-  }
+}
 
-  .jumbotron .container {
+.jumbotron .container {
     max-width: 40rem;
-  }
+}
 
-  footer {
+footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
+}
 
-  footer p {
+footer p {
     margin-bottom: 0.25rem;
-  }
+}
 
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
-  }
+}
   
-  .dropdownButton{
+.dropdownButton{
     background: none;
     border: none;
     color: red;
-  }
+}
+
+.genre-badge {
+    position: absolute;
+    background-color: green;
+    border-bottom:solid;
+    border-right:solid;
+    border-width: 1px;
+    left: 0;
+    top: 0;
+    border-radius: 0 0 5px 0;
+}
+
+.genre-badge > p{
+    padding: 3px;
+}
+
+.card-button{
+    margin-left: 60px;
+}
+
+.button-header{
+    margin-top: 20px;
+}
